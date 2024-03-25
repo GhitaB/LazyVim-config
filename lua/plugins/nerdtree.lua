@@ -56,7 +56,7 @@ let g:NERDTreeDirArrowCollapsible = '▾'
       false
     )
   end,
-  enabled = false,
+  enabled = true,
 }
 
 -- -- let g:NERDTreeShowHidden=1
