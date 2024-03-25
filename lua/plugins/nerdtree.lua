@@ -50,6 +50,7 @@ let g:NERDTreeDirArrowCollapsible = '▾'
     )
 
     vim.api.nvim_set_keymap("n", "<leader>fe", "<cmd>NERDTreeFind<cr>", { desc = "Find file in NERDTree" })
+    vim.api.nvim_set_keymap("n", "<leader>tg", "<cmd>NERDTreeToggle<cr>", { desc = "Toggle NERDTree" })
     vim.api.nvim_exec(
       [[
 ]],
