@@ -10,8 +10,9 @@ return {
         settings = {
           pylsp = {
             plugins = {
+              autopep8 = { enabled = false },
               pyflakes = { enabled = false },
-              pycodestyle = { enabled = false },
+              pycodestyle = { enabled = true, maxLineLength = 79 },
             },
           },
         },
@@ -19,8 +20,11 @@ return {
     },
     setup = {
       ["lua_ls"] = function()
-        vim.print("configuring")
+        -- vim.print("configuring")
       end,
+    },
+    inlay_hints = {
+      enabled = false,
     },
   },
   keys = {
