@@ -16,3 +16,5 @@ $ cd ~/.config/
 $ rm -rf nvim
 $ git clone git@github.com:GhitaB/LazyVim-config.git nvim
 ```
+
+TODO: fix pylint config
