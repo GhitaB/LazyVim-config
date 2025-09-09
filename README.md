@@ -1,10 +1,10 @@
 # LazyVim-config
-My LazyVim configuration
+
+LazyVim: https://www.lazyvim.org/
+
+Font: JetBrainsMono Nerd Font
 
 ```
-https://www.lazyvim.org/
-JetBrainsMono Nerd Font
-
 https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 $ curl -LO https://github.com/BurntSushi/ripgrep/releases/download/13.0.0/ripgrep_13.0.0_amd64.deb
 $ sudo dpkg -i ripgrep_13.0.0_amd64.deb
