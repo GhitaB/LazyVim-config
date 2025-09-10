@@ -28,3 +28,9 @@ cd ~/.config/
 ```
 git clone git@github.com:GhitaB/LazyVim-config.git nvim
 ```
+
+### Utils
+See messages that appear in popups for a short time:
+```
+:Noice messages
+```
