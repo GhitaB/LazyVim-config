@@ -16,10 +16,10 @@ vim.api.nvim_exec(
   false
 )
 
-vim.api.nvim_create_autocmd("BufReadPost", {
-  callback = function()
-    require("cmp").setup.buffer({ enabled = false })
-  end,
-})
+-- vim.api.nvim_create_autocmd("BufReadPost", {
+--   callback = function()
+--     require("cmp").setup.buffer({ enabled = false })
+--   end,
+-- })
 -- autocmd BufWritePre *.py LspStop
 -- autocmd BufWritePost *.py LspStart
