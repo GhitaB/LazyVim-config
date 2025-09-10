@@ -12,6 +12,7 @@ return {
                 reportMissingImports = "none",
                 reportMissingModuleSource = "none",
               },
+              reportOptionalMemberAccess = "none",
             },
           },
         },
@@ -19,3 +20,4 @@ return {
     },
   },
 }
+
